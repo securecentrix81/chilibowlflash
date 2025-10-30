@@ -13,6 +13,11 @@
 </head>
 
   <body>
+	  <script>
+    if (!localStorage.getItem("userIsValidated")) {
+      window.location.replace("/")
+    }
+  </script>
      <!-- Div content -->
 <div style="margin:0 auto;text-align:center">
 	
